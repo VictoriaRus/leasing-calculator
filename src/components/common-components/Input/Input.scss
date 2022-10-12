@@ -1,0 +1,42 @@
+@import "../../../sass/variables";
+
+.input-wrap {
+  position: relative;
+  display: inline;
+  font-family: 'Nekst';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: $color_grey;
+}
+
+.input {
+  font-family: 'Nekst';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: $color_grey;
+  background: $color_background;
+  border-radius: 16px;
+  border: 1px solid $color_background;
+  padding: 16px 24px;
+  width: 100%;
+  &:focus{
+    background: $color_white;
+  }
+}
+
+.input-info {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  z-index: 50;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
